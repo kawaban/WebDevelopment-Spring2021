@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            h3 {
+                color: rgb(47, 11, 125);
+            }
+            
+            .important-info {
+                color: rgb(0, 146, 191);
+            }
+            
+            #country {
+                color: rgb(164, 24, 171);
+            }
+            
+            h1 {
+                color: rgb(212, 34, 147);
+            }
+            
+            
+            
+        </style>
+    </head>
+    <body>
+    
+        <h1 id>Travel to ....</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Collage_Venezia.jpg/1920px-Collage_Venezia.jpg" alt="a picture of Venice" width="500">
+        <h2>...anywhere you want with our company "Travel Inc."!</h2>
+        
+        <p>Like you, we are travelers. It’s in our blood, who we are and what we do everyday. We are passionate, curious and deeply committed to the idea of sustainably exploring this incredible world as part of a global community. Woven together through rich cultures, histories, wildlife and a natural beauty; our planet, our home, is something to embrace and discover. We create transformative experiences that offer life changing moments and help fulfill that deep seated urge for connection and learning. </p>
+
+<h3> What we can offer you:</h3>
+<ul class="important-info">
+    <li>First-class service!</li>
+    <li>3-star hotel!</li>
+    <li>Plane tickets!</li>
+    <li>Visa!</li>
+    <li>3-course meals througout your whole trip!</li>
+</ul>
+
+<h3>What you need to do to enroll in our program:</h3>
+<ol class="important-info">
+    <li>Leave a message in our inbox at travelinc@gmail.com</li>
+    <li>Collect all of the documents listed on our website</li>
+    <li>Come to our office and leave the rest to us!</li>
+</ol>
+
+<h3>You can go to...</h3>
+<ul id="country">
+    <li>Beatuful landmarks of France</li>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Chateau_de_Chenonceau_2008E.jpg/440px-Chateau_de_Chenonceau_2008E.jpg" alt="a picture of mountains" width="300">
+    <li>Sunny beaches of Fiji</li>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/The_Point_%28Fiji%29.jpg/250px-The_Point_%28Fiji%29.jpg" alt="a picture of a beach" width="300">
+    <li>Glorios pyramids of Egypt</li>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/All_Gizah_Pyramids.jpg" alt="a picture of pyramids" width="300">
+    <li>And so much more!</li>
+</ul>
+
+<p>We can all agree that 2020 wasn’t the year we had thought it would be. Let's hope the next year will be more colorful and full of travel! </p>
+    </body>
+</html>
