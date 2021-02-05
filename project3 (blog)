@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            h1{
+                color: rgb(204, 34, 167);
+                font-family: cursive;
+            }
+            
+            h3{
+                color:rgb(204, 34, 167);
+                font-family: cursive;
+                
+            }
+            h2 {
+                color: rgb(133, 10, 113);
+                font-size: 1em;
+                text-align: center;
+            }
+            
+            h6 {
+                font-weight:bold;
+                text-decoration: underline;
+                text-align:center;
+                
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Tom's blog</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#first-post">Hello World!</a></li>
+            <li><a href="#second-post">Learning HTML</a></li>
+        </ul>
+        
+        <h2 id="first-post">Hello World</h2>
+        <h6>Posted on: 01.02.2021</h6>
+        
+        <p>Hello! Today I started learning web-development!fgvrmgvmr;kg;krngk; v k fk k vk vs nmv ms v n vmn fmds vkr kg;n kjkj;;;;;;;;;;;;ngvw rnn.tttttjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjv</p>
+        
+        <h2 id="second-post">Learning HTML</h2>
+        <h6>Posted on: 02.02.2021</h6>
+        
+        <p>My learning journey continues with HTML and CSS!.</p>
+        
+        
+    </body>
+</html>
