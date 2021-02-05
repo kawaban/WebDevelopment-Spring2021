@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        h1 {
+            color: rgb(207, 41, 130);
+        }
+        
+        h2 {
+            color: rgb(171, 7, 160);
+        }
+        
+        .step {
+            color: rgb(22, 184, 224);
+        }
+        
+        
+        </style>
+    </head>
+    <body>
+       
+        <h1>Tom's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#spaghetti">Rigatomi alla Genovese</a></li>
+            <li><a href="#salad">Tropical Turkey Salad</a></li>
+            <li><a href="#waffles">Lemon-Ricotta Cornmeal Waffles</a></li>
+        </ol>
+        
+        <h2 id="spaghetti">Rigatomi alla Genovese</h2>
+        
+        <ul>
+            <li>Time: 30 mins</li>
+            <li>Serves: 8 servings</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>olive oil</td>
+                <td> 1 tablespoon</td>
+            </tr>
+            <tr>
+                <td>beef chuck</td>
+                <td>2 pounds</td>
+            </tr>
+            <tr>
+                <td>celery</td>
+                <td>1/2 cup</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+        <p class="step"><strong>Step 1:</strong> Heat oil in a large pot over medium heat. Cook pancetta until most of fat is rendered out, about 6 minutes. Remove cooked pancetta with a slotted spoon and save.
+</p>
+
+        <p class="step"><strong>Step 2:</strong>Raise heat to high and transfer meat to the pot. Season with salt. Cook and stir until liquid releases from beef and begins to evaporate, and meat browns, 10 to 15 minutes.</p>
+        
+        <p class="step"><strong>Step 3:</strong>Reduce heat to medium-high. Add celery, carrots, reserved cooked pancetta, salt and pepper. Cook and stir about 5 minutes. Add a heaping tablespoon of tomato paste, bay leaf, and white wine. Cook and stir, scraping up the brownings from the bottom of the pan, 2 to 3 minutes. Add sliced onions. Reduce heat to medium. Cover pot and cook 30 minutes without stirring. After 30 minutes, stir onions and meat until well mixed. Cover again, and cook another 30 minutes. Stir.
+
+</p>
+        
+        
+        
+    <p><em>Source: <a href="https://www.allrecipes.com/recipe/246866/rigatoni-alla-genovese/">Allrecipes</a></em></p>
+    
+   <h2 id="salad">Tropical Turkey Salad</h2>
+        
+        <ul>
+            <li>Time: 20 mins</li>
+            <li>Serves: 12 servings</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>sour cream</td>
+                <td> 1/3 cup</td>
+            </tr>
+            <tr>
+                <td>chopped cooked turkey</td>
+                <td>4 cups</td>
+            </tr>
+            <tr>
+                <td>celery</td>
+                <td>1 cup</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+        <p class="step"><strong>Step 1:</strong> For the dressing, blend sour cream, chutney, lemon juice, honey, and curry powder in a small bowl. Mix well, and refrigerate until ready to use.
+</p>
+
+        <p class="step"><strong>Step 2:</strong>In a large bowl, combine turkey, red pepper, celery, pineapple, orange segments, and green onion. Add dressing, and toss well to coat. Refrigerate for 1 hour before serving.</p>
+    
+    <p><em>Source: <a href="https://www.allrecipes.com/recipe/43781/tropical-turkey-salad/">Allrecipes</a></em></p>
+    
+    <h2 id="waffles">Lemon-Ricotta Cornmeal Waffles</h2>
+        
+        <ul>
+            <li>Time: 30 mins</li>
+            <li>Serves: 4 servings</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>flour</td>
+                <td> 1 cup</td>
+            </tr>
+            <tr>
+                <td>white sugar</td>
+                <td>1/4 cup</td>
+            </tr>
+            <tr>
+                <td>baking soda</td>
+                <td>1/2 teaspoon</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        
+        <p class="step"><strong>Step 1:</strong> Preheat a waffle iron according to manufacturer's instructions.
+</p>
+
+        <p class="step"><strong>Step 2:</strong>Whisk flour, cornmeal, sugar, baking powder, baking soda, and salt together in a large mixing bowl.</p>
+        
+        <p class="step"><strong>Step 3:</strong>Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.
+
+</p>
+        
+    <p><em>Source: <a href="https://www.allrecipes.com/recipe/274974/lemon-ricotta-cornmeal-waffles/">Allrecipes</a></em></p>
+    </body>
+</html>
