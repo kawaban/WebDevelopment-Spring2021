@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Microsoft</title>
+        <meta charset="utf-8">
+
+        <style>
+            .header {
+                height: 54px;
+                display: flex;
+                font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 13px;
+                padding-left: 70px;
+                padding-right: 56px;
+            }
+
+            .logo {
+                margin: 16px 6px 16px 10px;
+            }
+
+            a {
+                text-decoration: none;
+                cursor: pointer;
+                color: black;
+            }
+            span:hover {
+                border-bottom: 2px solid black;
+            }
+            
+            button {
+                cursor: pointer;
+            }
+
+            ul{
+                list-style-type: none;
+                width: 758px;
+            }
+            ul li {
+                display: inline;
+            }
+            ul li a {
+                color: #262626;
+                border: 1px solid transparent;
+                display: inline-block;
+                padding: 10px 8px 10px 8px;
+
+            }
+
+            .header-buttons {
+                display: flex;
+            }
+            .products-button {
+                font-size: 12px;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                width: 176px;
+                padding: 16px 20px 16px 15px;
+                background-color: transparent;
+                border: none;
+            }
+            .products-button span {
+                font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+                color: rgb(38, 38, 38);
+
+            }
+            .search-button {
+                width: 76px;
+                height: 50px;
+                font-size: 12px;
+                padding: 13px 9px 30px 9px;
+                
+                background-color: transparent;
+                border: none;
+                display: flex;
+            }
+    
+            .search-button span {
+                margin-top: 5px; 
+            }
+
+            .search-button img {
+                margin-top: 4px;
+                margin-left: 5px;
+            }
+
+            .login {
+                width: 101px;
+                height: 48px;
+                display: flex;
+            }
+
+            .enter {
+                width: 53px;
+                height: 48px;
+                color: rgb(38, 38, 38);
+                padding-left: 12px;
+                padding-right: 4px;
+                padding-top: 17px;
+            }
+
+            .login-pic {
+                margin: 8px;
+            }
+
+            .main-page {
+                padding-right: 5%;
+                padding-left: 5%;
+            }
+
+            .main-pic {
+                position: absolute;
+                z-index: 1;
+            }
+            .sub-main-pic {
+                margin-left: 77px;
+                margin-right: 77px;
+                z-index: 2;
+                padding-top: 130px;
+
+            }
+
+            .main-page-writing {
+                width: 520px;
+                position: absolute;
+                height: 175px;
+                z-index: 3;
+                font-size: 15px;
+                font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            }
+
+            h1{
+                font-size: 34px;
+                font-weight: 600;
+                margin-top: -3px;
+            }
+
+            .ppl-buttons {
+                width: 520px;
+                height: 39px;
+                display: flex;
+                margin-top: 12px;
+                padding-top: 12px;
+                padding-right: 2px;
+            }
+            
+            .six-ppl {
+                width: 120px;
+                height: 19px;
+                background: black;
+                color: white;
+                padding: 8px 20px 8px 20px;
+                font-weight: 600;
+                font-size: 15px;
+                border: 2px solid black;
+                display: inline;
+                margin-right: 24px;
+            }
+            .six-ppl span:hover {
+                border-bottom: 2px solid white;
+            }
+
+            .one-person {
+                color: black;
+                width: 161px;
+                height: 19px;
+                padding: 8px 20px 8px 20px;
+                font-weight: 600;
+                font-size: 15px;
+            }
+
+            .articles {
+                margin-top: 400px;
+                display: flex;
+                padding-left: 55px;
+                padding-right: 70px;
+            }
+            .articles span:hover {
+                border-bottom: 2px solid  #0067b8;;
+            }
+            .article1, .article2, .article3, .article4 {
+                width: 327px;
+                height: 403px;
+                align-items: center;
+                text-align: center;
+                padding-left: 12px;
+                padding-right: 12px;
+                font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 15px;
+                text-align: left;
+            }
+
+            h3 {
+                font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+                margin-top: 37px;
+                padding: 1px 12px 2px 0;
+                margin-bottom: -9px;
+            }
+
+            .article1 span {
+                color: #0067b8;
+                font-weight: 600;
+            }
+            .article2 span {
+                color: #0067b8;
+                font-weight: 600;
+            }
+            .article3 span {
+                color: #0067b8;
+                font-weight: 600;
+            }
+            .article4 span {
+                color: #0067b8;
+                font-weight: 600;
+            }
+
+
+        </style>
+
+    </head>
+    <body>
+        <div class="header">
+            <img class="logo" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" width="110" height="25">
+            <ul>
+                <li><a href="#"><span>Microsoft 365</span></a></li>
+                <li><a href="#"><span>Office</span></a></li>
+                <li><a href="#"><span>Windows</span></a></li>
+                <li><a href="#"><span>Поддержка</span></a></li>
+            </ul>
+
+            <div class="header-buttons">
+                <button class="products-button" type="button">
+                    <span class="all-products">Все продукты Microsoft</span>
+                </button>
+                <button class="search-button" type="button">
+                    <span>Поиск</span>
+                    <img src="images/micro/ms-search.png" width="20">
+                </button>
+                <a href="#"> 
+                    <div class="login">
+                        <div class="enter">Войти</div>
+                        <div><img class="login-pic" src="images/micro/msin.png" width="32"></div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="main-page">
+            <img class="main-pic" src="images/micro/microsoft-main (2).png" width="1283" height="480">
+            <div class="sub-main-pic">
+                <div class="main-page-writing">
+                        <h1>Microsoft 365</h1>
+                        <p>Приложения Office премиум, дополнительное облачное хранилище, продвинутые инструменты обеспечения безопасности — все в одной удобной подписке</p>
+                        <div class="ppl-buttons">
+                            <a class="six-ppl" href="#"><span>До 6 человек</span></a>
+                            <a class="one-person" href="#"><span>Для 1 человека</span></a>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="articles">
+            <a href="#">
+                <div class="article1">
+                    <img src="images/micro/bottom1.png" width="303" height="170">
+                    <h3>Microsoft Teams</h3>
+                    <p>Общайтесь, проводите собрания, звоните и сотрудничайте.</p>
+                    <a href="#"><span >Подробнее</span></a>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="article2">
+                    <img src="images/micro/bottom2.png" width="303" height="170">
+                    <h3>Microsoft Edge</h3>
+                    <p>Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.</p>
+                    <a href="#"><span>Скачать<span></a>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="article3">
+                    <img src="images/micro/bottom3.png" width="303" height="170">
+                    <h3>Microsoft OneDrive</h3>
+                    <p>Сохраняйте свои файлы и фотографии на OneDrive — они будут доступны с любого устройства и где угодно.</p>
+                    <a href="#"><span>Подробнее</span></a>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="article4">
+                    <img src="images/micro/bottom4.png" width="303" height="170">
+                    <h3>Обновление Windows 10</h3>
+                    <p>Предоставляя новые функции, которые помогут вам успевать больше, общаться чаще и экономить время.</p>
+                    <a href="#"><span>Узнать больше</span></a>
+                </div>
+            </a>
+
+        </div>
+
+    </body>
+</html>
+
