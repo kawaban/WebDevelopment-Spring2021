@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instagram</title>
+        <meta charset="utf-8">
+
+        <style>
+
+           
+            .main-items {
+                display: flex;
+                width: 935px;
+                height: 618px;
+                margin-left: 245px;
+                margin-right: 245px;
+                margin-top: 32px;
+                padding-bottom: 32px;
+           }
+
+            
+
+            .info-box {
+                width: 350px;
+                height: 606px;
+                margin-top: 30px;
+                margin-left: -10px;
+                background-color: white;
+
+            }
+
+            form {
+                border: 1px solid rgb(219, 219, 219);
+                width: 350px;
+                height: 380px;
+                align-items: center;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            input {
+                width: 264px;
+                height: 34px;
+                font-size: 12px;
+                border-radius: 3px;
+                border: 1px solid #dbdbdb;
+                padding-left: 7px;
+                margin-bottom: 7px;
+                
+            }
+
+            button {
+                cursor: pointer;
+                width: 268px;
+                height: 30px;
+                background-color: rgba(var(--d69,0,149,246),.3);
+               
+                border-radius: 4px;
+                font-size: 14px;
+                color: white;
+                font-weight: bold;
+                border: none;
+                margin-top: 8px; 
+
+            }
+
+            button:hover {
+                background-color:  rgba(0, 149, 246, 0.7);
+            }
+
+            .divider {
+                display: flex;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                font-size: 13px;
+                font-weight: 600;
+                color: rgb(142, 142, 142);
+                margin-top: 10px;
+                margin-bottom: 18px;
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+
+            .divider-stick1 {
+                width: 107px;
+                border-bottom: 1px solid rgb(219, 219, 219);
+                margin:10px;
+            }
+            .divider-stick2 {
+                width: 107px;
+                border-bottom: 1px solid rgb(219, 219, 219);
+                margin: 10px;
+            }
+
+            .login-fb {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                color: rgb(56, 81, 133);
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+            .forgot-pass {
+                color: rgb(0, 55, 107);
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                font-size: 12px;
+                margin-top: 30px;
+
+            }
+
+
+            .no-account {
+                border: 1px solid rgb(219, 219, 219);
+                width: 348px;
+                height: 43px;
+                text-align: center;
+                margin-bottom: 10px;
+                padding-top: 9px;
+                padding-bottom: 9px;
+            }
+
+            .no-account p {
+                font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                margin: 13px;
+
+            }
+
+            .no-account p a {
+                color: rgb(0, 149, 246);
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+            .get-app {
+                text-align: center;
+                align-items: center; 
+            }
+
+            .get-app p {
+                font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                margin-top: 17px;
+                margin-bottom: 17px;
+            }
+            .get-get-app-buttons {
+                margin-top: 10px;
+            }
+            
+
+
+            .logo {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .phones-picture {
+                margin-left: 40px;
+                width: 454px;
+                height: 618px;
+                
+            }
+            .phone-pic {
+                position: absolute;
+            }
+
+            .insta-pic {
+                position: absolute;
+                margin-left: 151px;
+                margin-top: 98px;
+                
+            }
+
+            footer {
+                text-align: center;
+                align-items: center;
+            }
+
+            ul{
+                list-style-type: none;
+                display: block;
+            }
+            ul li {
+                display: inline;
+                margin-left: 10px;
+            }
+            ul li a{
+                color: #8e8e8e;
+                font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                font-size: 12px;
+            }
+
+            .categories {
+                margin-top: -15px;
+            }
+
+            .footer-bottom {
+                font-size: 12px;
+                color: #8e8e8e;
+                font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                display: flex;
+                margin-left: 500px;
+                margin-right: 500px;
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+            select {
+                cursor: pointer;
+            }
+           
+
+            
+
+        </style>
+
+    </head>
+    <body>
+        <div class="main-page">
+
+            <div class="main-items">
+
+                <div class="phones-picture">
+                    <img class="phone-pic" src="images/9364675fb26a.png" alt="Picture of Phones" width="454" height="618">
+                    <img class="insta-pic" src="images/b27a108592d8.jpg" alt="Instagram Page" width="240" height="427">
+                </div>
+
+                <div class="info-box" >
+                    <div>
+                        <form>
+                            <img class="logo" src="images/Screen Shot 2021-02-09 at 02.39.07.png" alt="Instagram Logo" width="175" height="51">
+                            <div><input type="text" placeholder="Phone number, username, or email"></div>
+                            <div><input type="password" placeholder="Password"></div>
+                            <button type="submit">Log In</button>
+                            <div class="divider">
+                                <div class="divider-stick1"></div>
+                                <div>OR</div>
+                                <div class="divider-stick2"></div>
+                            </div>
+                            <div class="login-fb"><a class="login-fb linki" href="#"> <img src="images/Screen Shot 2021-02-09 at 15.56.11.png"alt="mini FB logo" width="16" height="16">
+                                Log in with Facebook</a>
+                                </div>
+                            <div class="forgot-pass"><a class="forgot-pass linki" href="#">Forgot password?</a></div>
+                        </form>
+
+                        <div class="no-account">
+                            <p>Don't have an account? <a href="#">Sign Up</a></p>
+                        </div>
+                    </div>
+
+                    <div class="get-app">
+                        <p>Get the app.</p>
+                        <div class="get-app-buttons">
+                            <a href="#"><img src="images/180ae7a0bcf7.png" alt="Download on the App Store" width="136" height="40"></a>
+                            <a href="#"><img src="images/e9cd846dc748.png" alt="Download on the Google Play" width="136" height="40"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+      
+    </body>
+    <footer>
+        <div class="footer-info">
+            <div class="footer-top">
+                <div class="map">
+                    <ul>
+                        <li class="more-map">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="more-map">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="more-map">
+                            <a href="#">Jobs</a>
+                        </li>
+                        <li class="more-map">
+                            <a href="#">Help</a>
+                        </li>
+                        <li class="more-map">
+                            <a href="#">API</a>
+                        </li>
+                        <li class="more-map">
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li class="more-map">
+                            <a href="#">Terms
+                            </a>
+                        </li>
+                        <li class="more-map">
+                            <a href="#">Top Accounts</a>
+                        </li>
+                        <li class="more-map">
+                            <a href="#">Hashtags</a>
+                        </li>
+                        <li class="more-map">
+                            <a href="#">Locations</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+                <div class="categories">
+                    <ul>
+                        <li class="more-categories">
+                            <a href="#">Beauty</a>
+                        </li>
+                        <li class="more-categories">
+                            <a href="#">Dance & Perfomance</a>
+                        </li>
+                        <li class="more-categories">
+                            <a href="#">Fitness</a>
+                        </li>
+                        <li class="more-categories">
+                            <a href="#">Food & Drink</a>
+                        </li>
+                        <li class="more-categories">
+                            <a href="#">Home & Garden</a>
+                        </li>
+                        <li class="more-categories">
+                            <a href="#">Music</a>
+                        </li>
+                        <li class="more-categories">
+                            <a href="#">Visual Arts</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <div class="lang-select">
+                    <select >
+                        <option>Afrikaans</option>
+                        <option>Dansk</option>
+                        <option>Deutch</option>
+                        <option>English</option>
+                        <option>English (UK)</option>
+                        <option>Espanol</option>
+                        <option>Suomi</option>
+                        <option>Bahasa Indonesia</option>
+                        <option>Italiano</option>
+                        <option>Norsk</option>
+                        <option>Nederlands</option>
+                        <option>Русский</option>
+                    </select>
+                </div>
+
+                <div class="inst-from-fb">© 2021 Instagram from Facebook</div>
+            </div>
+        </div>
+
+    </footer>
+</html>
