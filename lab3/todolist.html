@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+           
+            .header {
+                background-color:  #8568c4;
+                height: 64px;
+                display: flex;
+                padding: 15px;
+                color: white;
+            }
+
+            .header-text {
+                font-family: sans-serif;
+                font-size: 30px;
+            }
+
+            .main {
+                display: grid;
+                align-items: center;
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            .body-text {
+                font-family: sans-serif;
+                color: #221057;
+            }
+
+            .task-input {
+                width: 500px;
+                height: 40px;
+                font-size: 20px;
+                border-radius: 5px;
+                border: 1px solid rgb(219, 219, 219);
+                margin-top: 20px;
+                padding-left: 5px;
+            }
+
+            .add-button {
+                background-color: #6e47b8;
+                padding: 6px 15px;
+                border-radius: 5px;
+                font-family: sans-serif;
+                color: white;
+                cursor: pointer;
+            }
+            .add-button:hover {
+                background-color: #332155;
+            }
+
+
+            .tasks-container {
+                margin-top: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .todo {
+                margin: 0.5rem;
+                background-color: white;
+                width: 550px;
+                display: flex;
+                font-size: 20px;
+                border-radius: 5px;
+                border: 1px solid rgb(219, 219, 219);
+            }
+
+            .todo li {
+                flex: 1;
+                padding: 0.5rem;
+                
+            }
+            
+            ul {
+                list-style-type: none;
+                font-family: sans-serif;;
+            }
+
+            .completed{
+                text-decoration: line-through;
+                color: #515151;
+                background-color: #dadada;
+            }
+
+            .complete-task-button{
+            	background: #77dd77;
+                border: none;
+                padding: 0.5rem;
+                cursor: pointer;
+                border-top-left-radius: 5px;
+            	border-bottom-left-radius: 5px;
+            }
+            .complete-task-button:hover {
+                background: #aadd77;
+            }
+
+            .delete-task-button {
+                background-color :#ff6961;
+                padding: 0.5rem;
+                border: none;
+                cursor: pointer;
+                border-top-right-radius: 5px;
+            	border-bottom-right-radius: 5px;
+            }
+
+            .delete-task-button:hover {
+                background: #dd7777;
+            }
+
+            .img-trash, .img-check{
+            	pointer-events: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h3 class="header-text">Toma's To Do List</h3>
+        </div>
+
+        <div class="main">
+
+            <div class="new-task">
+                <h2 class="body-text">Create Your To Do List</h2>
+                <h3 class="body-text">and be productive!</h3>
+                <input class="task-input" type="text" placeholder="New Task">
+                <span  class="add-button">
+                    Add
+                    
+                </span>
+            </div>
+   
+
+            <div class="tasks-container">
+                <ul class="todo-list ">
+                    
+
+                </ul>
+            </div>
+        
+        </div>
+
+        
+        <script src="todo.js"></script>
+    </body>
+</html>
