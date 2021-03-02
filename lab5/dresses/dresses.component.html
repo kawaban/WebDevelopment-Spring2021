@@ -1,0 +1,41 @@
+<h2>Women's Dresses</h2>
+
+<div class="product-container">
+  <div *ngFor="let product of products">
+    <div *ngIf="product.category == 'Dresses'">
+      <div class="product-item">
+        <h3>
+          <a  [title]="product.name + ' details'" [href]=" product.link " target="_blank">
+            {{ product.name }}
+          </a>
+        </h3>
+
+        <p class="product-rating" *ngIf="product.rating">
+          Rating: {{ product.rating }}
+        </p>
+
+        <p class="product-price" *ngIf="product.price">
+          {{ product.price}}$
+        </p>
+
+
+        <img *ngIf="product.image" src="{{product.image}}" height="500">
+
+
+        <p *ngIf="product.description">
+          Description: {{ product.description }}
+        </p>
+
+
+        <a [href]="'https://telegram.me/share/url?url=' + product.link " target="_blank">
+          <button class="product-btn share-btn">
+            Share
+          </button>
+        </a>
+        <button class="product-btn add-to-cart-btn" (click)="addToCart(product)">Buy</button>
+        <button class="product-btn like-item-btn" (click)="likeProduct()">Like <span>{{likes}}</span></button>
+        <button class="product-btn remove-item-btn">Remove Item</button>
+      </div>
+    </div>
+  </div>
+</div>
